@@ -19,6 +19,19 @@
       color: white;
     }
 
+    <section class="mision-vision">
+  <div class="contenedor">
+    <div class="bloque">
+      <h2>Misión</h2>
+      <p>Brindar comodidad y una variedad en la presentación de sabores poco convencionales, que combine tradición y sabor en una forma llamativa.</p>
+    </div>
+    <div class="bloque">
+      <h2>Visión</h2>
+      <p>Establecernos como una marca importante a nivel regional en el mercado gastronómico.</p>
+    </div>
+  </div>
+</section>
+    
     .hero h1 {
       font-size: 6em;
       margin-bottom: 0.2em;
@@ -76,6 +89,73 @@
       .hero {
         padding-top: 130px;
         }
+
+       <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MankaWiri</title>
+  <style>
+    /* Tu CSS anterior */
+    body {
+      margin: 0;
+      font-family: 'Verdana', sans-serif;
+      background-color: #fefae0;
+      color: #333;
+    }
+
+    .hero {
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #d4a373;
+      color: white;
+    }
+
+    .mision-vision {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .mision-vision .contenedor {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .bloque {
+      background-color: #fefae0;
+      border: 2px solid #d4a373;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .bloque h2 {
+      color: #d4a373;
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    .bloque p {
+      font-size: 1.3em;
+      color: #5f4b32;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .mision-vision .contenedor {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .bloque {
+        width: 45%;
+      }
+    }
+  </style>
+</head>
+
         
   </style>
 </head>
