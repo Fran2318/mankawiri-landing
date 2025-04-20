@@ -19,19 +19,6 @@
       color: white;
     }
 
-    <section class="mision-vision">
-  <div class="contenedor">
-    <div class="bloque">
-      <h2>Misión</h2>
-      <p>Brindar comodidad y una variedad en la presentación de sabores poco convencionales, que combine tradición y sabor en una forma llamativa.</p>
-    </div>
-    <div class="bloque">
-      <h2>Visión</h2>
-      <p>Establecernos como una marca importante a nivel regional en el mercado gastronómico.</p>
-    </div>
-  </div>
-</section>
-    
     .hero h1 {
       font-size: 6em;
       margin-bottom: 0.2em;
@@ -41,13 +28,13 @@
       font-size: 2.5em;
     }
 
-    .logo { 
+    .logo {
       width: 325px;
       position: absolute;
       right: 10px;
       top: 10px;
-      }
-      
+    }
+
     .whatsapp-float {
       position: fixed;
       bottom: 20px;
@@ -69,45 +56,6 @@
 
     .whatsapp-float:hover {
       background-color: #1ebe5d;
-    }
-
-     @media (max-width: 600px) {
-      .logo {
-        width: 160px;
-        top: 20px;
-        right: 5px;
-      }
-
-      .hero h1 {
-        font-size: 3em;
-      }
-
-      .hero p {
-        font-size: 1.5em;
-      }
-
-      .hero {
-        padding-top: 130px;
-        }
-
-       <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MankaWiri</title>
-  <style>
-    /* Tu CSS anterior */
-    body {
-      margin: 0;
-      font-family: 'Verdana', sans-serif;
-      background-color: #fefae0;
-      color: #333;
-    }
-
-    .hero {
-      padding: 30px 20px;
-      text-align: center;
-      background-color: #d4a373;
-      color: white;
     }
 
     .mision-vision {
@@ -149,20 +97,51 @@
         flex-direction: row;
         justify-content: space-around;
       }
+
       .bloque {
         width: 45%;
       }
     }
-  </style>
-</head>
 
-        
+    @media (max-width: 600px) {
+      .logo {
+        width: 160px;
+        top: 20px;
+        right: 5px;
+      }
+
+      .hero h1 {
+        font-size: 3em;
+      }
+
+      .hero p {
+        font-size: 1.5em;
+      }
+
+      .hero {
+        padding-top: 130px;
+      }
+    }
   </style>
 </head>
 <body>
   <section class="hero">
     <h1>MankaWiri</h1>
     <p>La esencia del buen sabor</p>
+  </section>
+
+  <!-- Sección misión y visión -->
+  <section class="mision-vision">
+    <div class="contenedor">
+      <div class="bloque">
+        <h2>Misión</h2>
+        <p>Brindar comodidad y una variedad en la presentación de sabores poco convencionales, que combine tradición y sabor en una forma llamativa.</p>
+      </div>
+      <div class="bloque">
+        <h2>Visión</h2>
+        <p>Establecernos como una marca importante a nivel regional en el mercado gastronómico.</p>
+      </div>
+    </div>
   </section>
 
   <a href="https://wa.me/59177710516" class="whatsapp-float" target="_blank" title="Chatea con nosotros por WhatsApp">
